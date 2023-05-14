@@ -1,5 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   border: none;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525;
+}
+
+#logo {
+  float: left;
+  font-size: 230%;
+  margin-left: 30px;
+}
+
+/* navigaton links */
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  float: right;
+}
+
+#menu,
+#logo {
+  line-height: 75px;
+}
+
+#menu li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+#menu a:hover {
+  background-color: #e1eae7;
+  border-radius: 5px;
+}
+
+/* hero image and cover text*/
+
+#hero-outer {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+  color: #fff;
+}
+#hero-image {
+  height: 800px;
+  width: 100%;
+  background: url('../images/hero.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#cover-text {
+  font-size: 130%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 400px;
+  height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+
+  background-color: rgba(0, 109, 107, 0.5);
+
+  top: 35%;
+  left: 150px;
+
+  position: absolute;
 }
