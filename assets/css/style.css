@@ -9,7 +9,7 @@
 body {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
-  color: #3a3a3a;
+  color: #131515;
 }
 
 /* headings and logo */
@@ -17,7 +17,29 @@ body {
 h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #252525;
+  color: #131515;
+}
+
+h2 {
+  /* font-size: 44px; */
+  color: #263246;
+  margin-bottom: 34px;
+  margin-top: 5px;
+}
+
+q {
+  color: #74a892;
+}
+
+cite {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 26px;
+  margin: 10px 0 15px 0;
+  text-align: left;
 }
 
 #logo {
@@ -51,7 +73,8 @@ h1 {
 }
 
 #menu a:hover {
-  background-color: #e1eae7;
+  background-color: #74a892;
+  color: #fff;
   border-radius: 5px;
 }
 
@@ -83,7 +106,7 @@ h1 {
 
   width: 400px;
   height: 200px;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-left: 10px;
 
   background-color: rgba(0, 109, 107, 0.5);
@@ -92,4 +115,27 @@ h1 {
   left: 150px;
 
   position: absolute;
+}
+
+/* about section */
+#about {
+  max-width: 75%;
+  padding: 10px 12.5%;
+}
+#about-pic {
+  float: left;
+  width: 50%;
+  margin-right: -20px;
+  padding-right: 20px;
+}
+
+#about-pic-item {
+  height: 620px;
+  width: calc(50% - 20px);
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#about-content {
 }
