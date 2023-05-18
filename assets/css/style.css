@@ -172,11 +172,6 @@ p {
   color: #fff;
 }
 
-.contact-column {
-  float: left;
-  width: 50%;
-}
-
 form {
   background: #74a892;
   padding: 60px 100px;
@@ -225,4 +220,20 @@ button {
   margin-left: 20px;
   padding-left: 20px;
   border-left: 1px dashed #74a892;
+}
+
+/* footer */
+
+footer {
+  border-top: 1px solid #74a892;
+  padding: 4em;
+}
+#footer-container {
+  max-width: 90%;
+  text-align: center;
+  padding: 50px 5%;
+}
+.footer-column {
+  float: left;
+  width: 30%;
 }
