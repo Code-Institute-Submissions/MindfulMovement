@@ -143,6 +143,10 @@ p {
   margin-bottom: 20px;
 }
 
+.inner img:last-of-type {
+  margin-top: 15px;
+}
+
 /* gallery section */
 
 #gallery {
@@ -158,9 +162,11 @@ p {
 .gallery-pic {
   float: left;
   max-width: 25%;
+  margin-top: -5px;
 }
 
 /* instructors section */
+
 #instructors {
   max-width: 75%;
   padding: 50px 12.5%;
