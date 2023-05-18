@@ -36,13 +36,13 @@
     </section>
     <section id="about">
       <div id="about-pic">
-        <div id="about-pic-item">
+        <div class="about-pic-item">
           <img
             src="assets/images/about-1.jpg"
             alt="A woman in Tree Pose (Vrksasana) on top of a boulder facing a stunning view"
           />
         </div>
-        <div id="about-pic-item">
+        <div class="about-pic-item">
           <img
             src="assets/images/about-2.jpg"
             alt="A woman in Lotus Pose with a twist (Parivrtti Padmasana) on a yoga mat"
@@ -80,6 +80,73 @@
           to embark on a journey of self-discovery and personal growth.
         </p>
       </div>
+    </section>
+    <section id="gallery"></section>
+    <section id="instructors">
+      <div class="row">
+        <h2>Meet Our Instructors</h2>
+        <p>
+          Our highly trained and dedicated instructors are the heart and soul of
+          our community. With years of experience and a deep passion for their
+          craft, they bring a wealth of knowledge and expertise to each class
+          and session. Committed to creating a safe and nurturing environment,
+          our instructors guide you through your practice with compassion and
+          attentiveness, ensuring that you feel supported every step of the way.
+        </p>
+      </div>
+      <div class="row">
+        <div class="instructor-column">
+          <img src="assets/images/instructor-1.jpg" alt="" />
+          <h3>Sinead Hogan</h3>
+          <span>Yoga Teacher</span>
+        </div>
+        <div class="instructor-column">
+          <img src="assets/images/instructor-2.jpg" alt="" />
+          <h3>Niamh Quinn</h3>
+          <span>Yoga Teacher</span>
+        </div>
+        <div class="instructor-column">
+          <img src="assets/images/instructor-3.jpg" alt="" />
+          <h3>Aoife O'Neil</h3>
+          <span>Yoga Teacher</span>
+        </div>
+        <div class="instructor-column">
+          <img src="assets/images/instructor-4.jpg" alt="" />
+          <h3>Isobel Quinlan</h3>
+          <span>Yoga Teacher</span>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form
+        method="POST"
+        action="https://formdump.codeinstitute.net/"
+        class="contact-form"
+      >
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="text-input" required />
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          name="email_address"
+          id="email"
+          pattern="^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}"
+          required
+        />
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          pattern="[0-9]{9,10}"
+          required
+        />
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
     </section>
     <footer></footer>
   </body>
