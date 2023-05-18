@@ -134,9 +134,10 @@ header {
 }
 
 /* about section */
+
 #about {
   max-width: 75%;
-  padding: 50px 12.5%;
+  padding: 100px 12.5% 50px;
 }
 #about-pic {
   float: left;
@@ -160,8 +161,7 @@ header {
 /* gallery section */
 
 #gallery {
-  /* max-width: 75%; */
-  padding-top: 50px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -258,7 +258,7 @@ button {
 
 /* map */
 #map {
-  padding: 50px 0;
+  padding: 50px 12.5%;
   height: 600px;
 }
 
