@@ -357,6 +357,7 @@ footer a:hover {
 
   header {
     grid-template-columns: 1fr;
+    position: relative;
   }
 
   #cover-text {
@@ -446,6 +447,7 @@ footer a:hover {
   /* CSS rules for iPads and tablets */
   header {
     grid-template-columns: 1fr;
+    position: relative;
   }
 
   #cover-text {
@@ -566,8 +568,4 @@ footer a:hover {
   #about {
     padding: 50px 5%;
   }
-}
-
-@media (min-width: 1201px) {
-  /* CSS rules for extra large screens and TVs */
 }
