@@ -63,12 +63,17 @@ header {
   background-color: #fff;
   z-index: 3;
   box-shadow: 0 -20px 30px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
-  float: right;
+  display: flex;
+  align-items: center;
 }
 
 #menu,
@@ -136,14 +141,16 @@ header {
 /* about section */
 
 #about {
-  max-width: 75%;
+  /* max-width: 75%; */
   padding: 100px 12.5% 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 #about-pic {
-  float: left;
+  /* float: left;
   width: 50%;
   margin-right: -20px;
-  padding-right: 20px;
+  padding-right: 20px; */
 }
 
 .about-pic-item {
@@ -158,6 +165,9 @@ header {
   margin-top: 15px;
 }
 
+#about-content {
+}
+
 /* gallery section */
 
 #gallery {
@@ -169,18 +179,27 @@ header {
   text-align: center;
 }
 
+#gallery-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
 .gallery-pic {
-  float: left;
-  max-width: 25%;
   margin-top: -5px;
+}
+
+.gallery-pic img {
+  max-width: 100%;
 }
 
 /* instructors section */
 
 #instructors {
-  max-width: 75%;
+  /* max-width: 75%; */
   padding: 50px 12.5%;
   text-align: center;
+  display: grid;
 }
 
 #instructors img {
@@ -188,9 +207,15 @@ header {
   max-height: 800px;
 }
 
+.instructor-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
 .instructor-column {
-  float: left;
-  width: 25%;
+  /* float: left;
+  width: 25%; */
 }
 
 #instructors h3 {
@@ -265,21 +290,18 @@ button {
 /* footer */
 
 footer {
-  padding: 4em 4em 0;
+  padding: 2em 4em 0;
   background-color: #666c83;
   color: #fff;
 }
 #footer-container {
   max-width: 100%;
-  /* text-align: center; */
   padding: 20px 0;
 }
-.footer-column {
-  float: left;
-  width: 30%;
-  max-width: 30%;
-  margin-left: 50px;
-  margin-bottom: 10px;
+
+#footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer h3 {
@@ -294,7 +316,6 @@ footer li {
   font-size: 16px;
   line-height: 27px;
   text-align: left;
-  /* padding-left: 130px; */
 }
 
 footer a {
@@ -309,10 +330,10 @@ footer a:hover {
 #footer-copyright {
   clear: both;
   padding-top: 15px;
+  padding-bottom: 10px;
   margin-top: 20px;
   font-size: 14px;
   border-top: 1px solid rgba(225, 225, 225, 0.1);
-  overflow: hidden;
 }
 
 .copyright-column {
